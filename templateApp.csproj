@@ -151,6 +151,7 @@
     <Content Include="changelog" />
     <Content Include="composer.json" />
     <Content Include="dist\img\logofinal.png" />
+    <Content Include="menuLateral.xml" />
     <Content Include="package.json" />
     <Content Include="plugins\ckeditor\CHANGES.md" />
     <Content Include="plugins\ckeditor\LICENSE.md" />

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menuLateral>
+  <!-- OPCIONES DE CADA MODULO -->  
+  <opcion nombre="Opcion 4" link="Contact.aspx">
+		<modulo id="4"></modulo>
+	</opcion>
+  
+    <opcion nombre="Opcion 5" link="">
+		<modulo id="5"></modulo>
+	</opcion>
+
+  <opcion nombre="Opcion 6" link="">
+		<modulo id="6"></modulo>
+	</opcion>
+
+
+
+</menuLateral>

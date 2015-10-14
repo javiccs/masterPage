@@ -4,3 +4,9 @@ C:\Users\Boris\Documents\Visual Studio 2013\Projects\templateApp\templateApp\bin
 C:\Users\Boris\Documents\Visual Studio 2013\Projects\templateApp\templateApp\obj\Debug\templateApp.csprojResolveAssemblyReference.cache
 C:\Users\Boris\Documents\Visual Studio 2013\Projects\templateApp\templateApp\obj\Debug\templateApp.dll
 C:\Users\Boris\Documents\Visual Studio 2013\Projects\templateApp\templateApp\obj\Debug\templateApp.pdb
+F:\Users\Alejandro\Documents\GitHub\masterPage\bin\templateApp.dll.config
+F:\Users\Alejandro\Documents\GitHub\masterPage\bin\templateApp.dll
+F:\Users\Alejandro\Documents\GitHub\masterPage\bin\templateApp.pdb
+F:\Users\Alejandro\Documents\GitHub\masterPage\obj\Debug\templateApp.csprojResolveAssemblyReference.cache
+F:\Users\Alejandro\Documents\GitHub\masterPage\obj\Debug\templateApp.dll
+F:\Users\Alejandro\Documents\GitHub\masterPage\obj\Debug\templateApp.pdb
