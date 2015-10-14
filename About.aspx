@@ -3,5 +3,5 @@
 <title>PRUEBA MENU VERTICAL</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    PRUEBA OPCION 4 VISUAL
+    PRUEBA OPCION 4
 </asp:Content>
