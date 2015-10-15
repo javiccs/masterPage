@@ -44,7 +44,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>SKD</b></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg" style="font-size:15px;font-family:Helvetica"><img src="dist/img/logofinal.png" style="max-width:80px;margin-top:3px;margin-left:0px" class="pull-left" />SA-KARATEDO</span>
+          <span class="logo-lg" style="font-size:15px;font-family:Helvetica"><img src="/dist/img/logofinal.png" style="max-width:80px;margin-top:3px;margin-left:0px" class="pull-left" />SA-KARATEDO</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation" style="background-color:#080B0C">
@@ -238,9 +238,9 @@
 
 
       <!-- Left side column. contains the sidebar -->
-      <aside class="main-sidebar" style="background-color:#080B0C;">
+      <aside class="main-sidebar" style="background-color:Disabled;">
         <!-- sidebar: style can be found in sidebar.less -->
-        <section class="sidebar" style="background-color:#080B0C;">
+        <section class="sidebar" style="background-color:Disabled;">
                   <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
 

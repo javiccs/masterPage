@@ -15,3 +15,9 @@ C:\Users\Rob Galeano\Documents\GitHub\masterPage\bin\templateApp.dll
 C:\Users\Rob Galeano\Documents\GitHub\masterPage\bin\templateApp.pdb
 C:\Users\Rob Galeano\Documents\GitHub\masterPage\obj\Debug\templateApp.dll
 C:\Users\Rob Galeano\Documents\GitHub\masterPage\obj\Debug\templateApp.pdb
+C:\Users\janet_000\Documents\GitHub\masterPage\bin\templateApp.dll.config
+C:\Users\janet_000\Documents\GitHub\masterPage\bin\templateApp.dll
+C:\Users\janet_000\Documents\GitHub\masterPage\bin\templateApp.pdb
+C:\Users\janet_000\Documents\GitHub\masterPage\obj\Debug\templateApp.csprojResolveAssemblyReference.cache
+C:\Users\janet_000\Documents\GitHub\masterPage\obj\Debug\templateApp.dll
+C:\Users\janet_000\Documents\GitHub\masterPage\obj\Debug\templateApp.pdb
