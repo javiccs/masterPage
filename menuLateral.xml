@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <menuLateral>
-  <!-- OPCIONES DE CADA MODULO -->  
-  <opcion nombre="Opcion 4" link="About.aspx">
-		<modulo id="4"></modulo>
-	</opcion>
-  
-    <opcion nombre="Opcion 5" link="">
-		<modulo id="4"></modulo>
-	</opcion>
+  <!-- OPCIONES DE CADA MODULO -->
 
   <opcion nombre="Opcion 1" link="Contact.aspx">
-		<modulo id="1"></modulo>
+    <modulo id="1"></modulo>
+  </opcion>
+  <opcion nombre="Opcion 2" link="About.aspx">
+		<modulo id="2"></modulo>
 	</opcion>
+  
+    <opcion nombre="Opcion 3" link="Inicio.aspx">
+		<modulo id="3"></modulo>
+	</opcion>
+
+
 
 
 
