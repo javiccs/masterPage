@@ -10,3 +10,8 @@ F:\Users\Alejandro\Documents\GitHub\masterPage\bin\templateApp.pdb
 F:\Users\Alejandro\Documents\GitHub\masterPage\obj\Debug\templateApp.csprojResolveAssemblyReference.cache
 F:\Users\Alejandro\Documents\GitHub\masterPage\obj\Debug\templateApp.dll
 F:\Users\Alejandro\Documents\GitHub\masterPage\obj\Debug\templateApp.pdb
+C:\Users\Rob Galeano\Documents\GitHub\masterPage\bin\templateApp.dll.config
+C:\Users\Rob Galeano\Documents\GitHub\masterPage\bin\templateApp.dll
+C:\Users\Rob Galeano\Documents\GitHub\masterPage\bin\templateApp.pdb
+C:\Users\Rob Galeano\Documents\GitHub\masterPage\obj\Debug\templateApp.dll
+C:\Users\Rob Galeano\Documents\GitHub\masterPage\obj\Debug\templateApp.pdb

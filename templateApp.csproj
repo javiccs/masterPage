@@ -64,7 +64,7 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="bower.json" />
+    <Content Include="GUI\Master\bower.json" />
     <Content Include="build\bootstrap-less\mixins.less" />
     <Content Include="build\bootstrap-less\mixins\alerts.less" />
     <Content Include="build\bootstrap-less\mixins\background-variant.less" />
@@ -148,11 +148,11 @@
     <Content Include="build\less\timeline.less" />
     <Content Include="build\less\users-list.less" />
     <Content Include="build\less\variables.less" />
-    <Content Include="changelog" />
-    <Content Include="composer.json" />
+    <Content Include="GUI\Master\changelog" />
+    <Content Include="GUI\Master\composer.json" />
     <Content Include="dist\img\logofinal.png" />
-    <Content Include="menuLateral.xml" />
-    <Content Include="package.json" />
+    <Content Include="GUI\Master\menuLateral.xml" />
+    <Content Include="GUI\Master\package.json" />
     <Content Include="plugins\ckeditor\CHANGES.md" />
     <Content Include="plugins\ckeditor\LICENSE.md" />
     <Content Include="plugins\ckeditor\plugins\scayt\LICENSE.md" />
@@ -174,7 +174,7 @@
     <Content Include="plugins\datatables\extensions\TableTools\Readme.md" />
     <Content Include="plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="plugins\input-mask\phone-codes\phone-codes.json" />
-    <Content Include="SKD.Master" />
+    <Content Include="GUI\Master\SKD.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -183,14 +183,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
+    <Content Include="GUI\Master\About.aspx" />
     <Content Include="bootstrap\css\bootstrap.css" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\npm.js" />
-    <Content Include="Contact.aspx" />
+    <Content Include="GUI\Master\Contact.aspx" />
     <Content Include="dist\css\AdminLTE.css" />
     <Content Include="dist\css\AdminLTE.min.css" />
     <Content Include="dist\css\skins\skin-black-light.css" />
@@ -253,10 +253,10 @@
     <Content Include="dist\js\demo.js" />
     <Content Include="dist\js\pages\dashboard.js" />
     <Content Include="dist\js\pages\dashboard2.js" />
-    <Content Include="Gruntfile.js" />
-    <Content Include="index.html" />
-    <Content Include="index2.html" />
-    <Content Include="Inicio.aspx" />
+    <Content Include="GUI\Master\Gruntfile.js" />
+    <Content Include="GUI\Master\index.html" />
+    <Content Include="GUI\Master\index2.html" />
+    <Content Include="GUI\Master\Inicio.aspx" />
     <Content Include="pages\calendar.html" />
     <Content Include="pages\charts\chartjs.html" />
     <Content Include="pages\charts\flot.html" />
@@ -1007,39 +1007,57 @@
     <Content Include="plugins\timepicker\bootstrap-timepicker.js" />
     <Content Include="plugins\timepicker\bootstrap-timepicker.min.css" />
     <Content Include="plugins\timepicker\bootstrap-timepicker.min.js" />
-    <Content Include="starter.html" />
+    <Content Include="GUI\Master\starter.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.aspx.cs">
+    <Compile Include="GUI\Master\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
+    <Compile Include="GUI\Master\About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.cs">
+    <Compile Include="GUI\Master\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
+    <Compile Include="GUI\Master\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Inicio.aspx.cs">
+    <Compile Include="GUI\Master\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Inicio.aspx.designer.cs">
+    <Compile Include="GUI\Master\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SKD.Master.cs">
+    <Compile Include="GUI\Master\SKD.Master.cs">
       <DependentUpon>SKD.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SKD.Master.designer.cs">
+    <Compile Include="GUI\Master\SKD.Master.designer.cs">
       <DependentUpon>SKD.Master</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GUI\Modulo 10\" />
+    <Folder Include="GUI\Modulo 11\" />
+    <Folder Include="GUI\Modulo 12\" />
+    <Folder Include="GUI\Modulo 13\" />
+    <Folder Include="GUI\Modulo 14\" />
+    <Folder Include="GUI\Modulo 15\" />
+    <Folder Include="GUI\Modulo 16\" />
+    <Folder Include="GUI\Modulo 1\" />
+    <Folder Include="GUI\Modulo 2\" />
+    <Folder Include="GUI\Modulo 3\" />
+    <Folder Include="GUI\Modulo 4\" />
+    <Folder Include="GUI\Modulo 5\" />
+    <Folder Include="GUI\Modulo 6\" />
+    <Folder Include="GUI\Modulo 7\" />
+    <Folder Include="GUI\Modulo 8\" />
+    <Folder Include="GUI\Modulo 9\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

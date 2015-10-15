@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SKD.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="templateApp.Inicio" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="templateApp.Inicio" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Seccion de Inicio</title>
 </asp:Content>

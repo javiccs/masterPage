@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SKD.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="templateApp.About" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="templateApp.About" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <title>PRUEBA MENU VERTICAL</title>
 </asp:Content>
