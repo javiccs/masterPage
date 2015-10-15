@@ -52,6 +52,63 @@
    
           <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
+                <li class="dropdown">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Organizaciones<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Organizaciones Mundiales</a></li>
+                                <li><a href="#">Cintas por Organización</a></li>
+                                <li><a href="#">Restricciones Cintas y Eventos</a></li>
+                            </ul>
+					    </li>
+
+                <li class="dropdown">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dojo<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Administración de Dojo</a></li>
+                                <li><a href="#">Reportes de Dojo</a></li>
+                            </ul>
+					    </li>
+                 <li class="dropdown">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Usuarios<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Atletas</a></li>
+                                <li><a href="#">Consulta Atletas</a></li>
+                                <li><a href="#">Representantes</a></li>
+                                <li><a href="#">Contactos</a></li>
+                            </ul>
+					    </li>
+                
+                <li class="dropdown">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tipos de Eventos<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Eventos y Competencias</a></li>
+                                <li><a href="#">Asistencia a Eventos</a></li>
+                                <li><a href="#">Resultados de Competencias</a></li>
+                             
+                            </ul>
+					    </li>
+
+                 <li class="dropdown">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mercancía<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Inventario</a></li>
+                            </ul>
+					    </li>
+
+                 <li class="dropdown">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Planillas<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Planillas Retiro y Vacaciones</a></li>
+                            </ul>
+					    </li>
+
+                <li class="dropdown">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Compras<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Carrito de Compras</a></li>
+                            </ul>
+					    </li>
+
               <!-- Messages: style can be found in dropdown.less-->
               <li class="dropdown messages-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
