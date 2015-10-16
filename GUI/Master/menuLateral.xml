@@ -5,14 +5,30 @@
   <opcion nombre="Opcion 1" link="Contact.aspx">
     <modulo id="1"></modulo>
   </opcion>
-  <opcion nombre="Opcion 2" link="About.aspx">
+  <opcion nombre="Opcion 2" link="Contact.aspx">
+    <modulo id="1"></modulo>
+  </opcion>
+
+  <opcion nombre="Opcion 3" link="Contact.aspx">
+    <modulo id="1"></modulo>
+  </opcion>
+
+  <opcion nombre="Opcion 4" link="About.aspx">
 		<modulo id="2"></modulo>
 	</opcion>
   
-    <opcion nombre="Opcion 3" link="Inicio.aspx">
-		<modulo id="3"></modulo>
+    <opcion nombre="Opcion 5" link="Inicio.aspx">
+		<modulo id="2"></modulo>
+    </opcion>
+
+
+    <opcion nombre="Opcion 6" link="Inicio.aspx">
+        <modulo id="3"></modulo>
 	</opcion>
 
+  <opcion nombre="Opcion 7" link="Inicio.aspx">
+    <modulo id="3"></modulo>
+  </opcion>
 
 
 
