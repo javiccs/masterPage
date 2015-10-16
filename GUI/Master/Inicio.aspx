@@ -12,7 +12,7 @@
               <a href="#"><i class="fa fa-circle text-success"></i>Online</a>
             </div>
           </div>
-    <p>holaaaaa</p>
+    
     <div class="table-responsive">
 	    <table id="table-requerimientos" class="table table-striped table-hover">
 			<thead>
