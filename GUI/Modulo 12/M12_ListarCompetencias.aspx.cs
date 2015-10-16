@@ -5,14 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace templateApp
+namespace templateApp.GUI.Modulo_12
 {
-    public partial class About : System.Web.UI.Page
+    public partial class M12_ListarCompetencias : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ((SKD)Page.Master).IdModulo = "3";
-
+            ((SKD)Page.Master).IdModulo = "12";
         }
     }
 }

@@ -64,7 +64,6 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="GUI\Master\bower.json" />
     <Content Include="build\bootstrap-less\mixins.less" />
     <Content Include="build\bootstrap-less\mixins\alerts.less" />
     <Content Include="build\bootstrap-less\mixins\background-variant.less" />
@@ -148,11 +147,10 @@
     <Content Include="build\less\timeline.less" />
     <Content Include="build\less\users-list.less" />
     <Content Include="build\less\variables.less" />
-    <Content Include="GUI\Master\changelog" />
-    <Content Include="GUI\Master\composer.json" />
     <Content Include="dist\img\logofinal.png" />
     <Content Include="GUI\Master\menuLateral.xml" />
-    <Content Include="GUI\Master\package.json" />
+    <Content Include="GUI\Modulo 12\M12_ListarCompetencias.aspx" />
+    <Content Include="GUI\Modulo 9\M9_ListarEventos.aspx" />
     <Content Include="plugins\ckeditor\CHANGES.md" />
     <Content Include="plugins\ckeditor\LICENSE.md" />
     <Content Include="plugins\ckeditor\plugins\scayt\LICENSE.md" />
@@ -183,14 +181,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GUI\Master\About.aspx" />
     <Content Include="bootstrap\css\bootstrap.css" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\npm.js" />
-    <Content Include="GUI\Master\Contact.aspx" />
     <Content Include="dist\css\AdminLTE.css" />
     <Content Include="dist\css\AdminLTE.min.css" />
     <Content Include="dist\css\skins\skin-black-light.css" />
@@ -253,9 +249,6 @@
     <Content Include="dist\js\demo.js" />
     <Content Include="dist\js\pages\dashboard.js" />
     <Content Include="dist\js\pages\dashboard2.js" />
-    <Content Include="GUI\Master\Gruntfile.js" />
-    <Content Include="GUI\Master\index.html" />
-    <Content Include="GUI\Master\index2.html" />
     <Content Include="GUI\Master\Inicio.aspx" />
     <Content Include="pages\calendar.html" />
     <Content Include="pages\charts\chartjs.html" />
@@ -1007,30 +1000,29 @@
     <Content Include="plugins\timepicker\bootstrap-timepicker.js" />
     <Content Include="plugins\timepicker\bootstrap-timepicker.min.css" />
     <Content Include="plugins\timepicker\bootstrap-timepicker.min.js" />
-    <Content Include="GUI\Master\starter.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GUI\Master\About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GUI\Master\About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Master\Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GUI\Master\Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
     <Compile Include="GUI\Master\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="GUI\Master\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo 12\M12_ListarCompetencias.aspx.cs">
+      <DependentUpon>M12_ListarCompetencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Modulo 12\M12_ListarCompetencias.aspx.designer.cs">
+      <DependentUpon>M12_ListarCompetencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo 9\M9_ListarEventos.aspx.cs">
+      <DependentUpon>M9_ListarEventos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Modulo 9\M9_ListarEventos.aspx.designer.cs">
+      <DependentUpon>M9_ListarEventos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GUI\Master\SKD.Master.cs">
@@ -1042,9 +1034,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="GUI\Home\" />
     <Folder Include="GUI\Modulo 10\" />
     <Folder Include="GUI\Modulo 11\" />
-    <Folder Include="GUI\Modulo 12\" />
     <Folder Include="GUI\Modulo 13\" />
     <Folder Include="GUI\Modulo 14\" />
     <Folder Include="GUI\Modulo 15\" />
@@ -1057,7 +1049,6 @@
     <Folder Include="GUI\Modulo 6\" />
     <Folder Include="GUI\Modulo 7\" />
     <Folder Include="GUI\Modulo 8\" />
-    <Folder Include="GUI\Modulo 9\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

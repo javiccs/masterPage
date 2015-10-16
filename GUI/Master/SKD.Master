@@ -32,7 +32,7 @@
   </head>
   <body class="hold-transition skin-blue sidebar-mini">
 
-    <form id="form1" runat="server">
+    <form id="form" runat="server">
        
     <!-- Site wrapper -->
     <div class="wrapper">
@@ -97,7 +97,7 @@
                  <li class="dropdown">
                             <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Planillas<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Planillas Retiro y Vacaciones</a></li>
+                                <li><a href="#">Gestion De Planillas</a></li>
                             </ul>
 					    </li>
 
@@ -109,7 +109,7 @@
 					    </li>
 
               <!-- Messages: style can be found in dropdown.less-->
-              <li class="dropdown messages-menu">
+              <%--<li class="dropdown messages-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <i class="fa fa-envelope-o"></i>
                   <span class="label label-success">4</span>
@@ -135,59 +135,29 @@
                   </li>
                   <li class="footer"><a href="#">See All Messages</a></li>
                 </ul>
-              </li>
+              </li>--%> <!-- APARTADO DE MENSAJES-->
               <!-- Notifications: style can be found in dropdown.less -->
               <li class="dropdown notifications-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <i class="fa fa-bell-o"></i>
-                  <span class="label label-warning">10</span>
+                  <span class="label label-warning"><!-- CONTADOR DE NOTIFICACIONES --></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li class="header">You have 10 notifications</li>
+                  <li class="header"><!-- MENSAJE DE NOTIFICACIONES --></li>
                   <li>
                     <!-- inner menu: contains the actual data -->
                     <ul class="menu">
                       <li>
-                        <a href="#">
+                        <a href="#"><!--ICONO DE NOTIFICACION INTERNA Y MENSAJE EN LISTA-->
                           <i class="fa fa-users text-aqua"></i> 5 new members joined today
                         </a>
                       </li>
                     </ul>
                   </li>
-                  <li class="footer"><a href="#">View all</a></li>
+                  <li class="footer"><a href="#">View all</a></li><!--VER TODAS LAS NOTIFICACIONES-->
                 </ul>
               </li>
-              <!-- Tasks: style can be found in dropdown.less -->
-              <li class="dropdown tasks-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <i class="fa fa-flag-o"></i>
-                  <span class="label label-danger">9</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="header">You have 9 tasks</li>
-                  <li>
-                    <!-- inner menu: contains the actual data -->
-                    <ul class="menu">
-                      <li><!-- Task item -->
-                        <a href="#">
-                          <h3>
-                            Design some buttons
-                            <small class="pull-right">20%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">20% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li><!-- end task item -->
-                    </ul>
-                  </li>
-                  <li class="footer">
-                    <a href="#">View all tasks</a>
-                  </li>
-                </ul>
-              </li>
+             
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -203,18 +173,6 @@
                       <small>Member since Nov. 2012</small>
                     </p>
                   </li>
-                  <!-- Menu Body -->
-                  <li class="user-body">
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Followers</a>
-                    </div>
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Sales</a>
-                    </div>
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Friends</a>
-                    </div>
-                  </li>
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     <div class="pull-left">
@@ -227,9 +185,9 @@
                 </ul>
               </li>
               <!-- Control Sidebar Toggle Button -->
-              <li>
+              <%--<li>
                 <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-              </li>
+              </li>--%>
             </ul>
           </div>
         </nav>
@@ -237,14 +195,19 @@
 
 
       <!-- Left side column. contains the sidebar -->
-      <aside class="main-sidebar" style="background-color:Disabled;">
+      <aside class="main-sidebar control-sidebar-dark" style="background-color:Disabled;">
         <!-- sidebar: style can be found in sidebar.less -->
         <section class="sidebar" style="background-color:Disabled;">
                   <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+          <li><a href="#" class="fa fa-home"></></a></li> 
+
+          </ul>
           <ul class="sidebar-menu">
 
 
-           <%-- <li class="header">MAIN NAVIGATION</li>--%>
+           <%-- <li class="header">MAIN NAVIGATION</li>--%>           
+
             <% foreach (KeyValuePair<string, string> opcion in OpcionesDelMenu) %>
 						<% { %>
 							<li><a href="<%= Page.ResolveUrl(opcion.Value) %>"><%= opcion.Key%></a></li>
@@ -253,40 +216,38 @@
         </section>
         <!-- /.sidebar -->
       </aside>
-
+        <div class="control-sidebar-bg"></div>
      
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
-          <h1>
-            Blank page
-            <small>it all starts here</small>
-          </h1>
-          <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Examples</a></li>
-            <li class="active">Blank page</li>
-          </ol>
+
+            <h1 class="page-header">
+               <asp:ContentPlaceHolder runat="server" ID="titulo"></asp:ContentPlaceHolder>
+                  <small> 
+                  <br /><asp:ContentPlaceHolder runat="server" ID="subtitulo"></asp:ContentPlaceHolder>
+                  </small>
+			</h1>
+
         </section>
 
         <!-- Main content -->
         <section class="content">
 
-          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-          </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder runat="server" ID="contenidoCentral"></asp:ContentPlaceHolder>	
 
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
 
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
-          <b>Version</b> 2.3.0
+            <strong>Copyright &copy; 2015-2016 <a href="#">SA-Karatedo</a>.</strong> All rights reserved.
         </div>
-        <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights reserved.
+          <br/>
       </footer>
 
-      <!-- Control Sidebar -->
+      <%--<!-- Control Sidebar -->
       <aside class="control-sidebar control-sidebar-dark">
         <!-- Create the tabs -->
         <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
@@ -448,7 +409,7 @@
             <!--/form-->
           </div><!-- /.tab-pane -->
         </div>
-      </aside><!-- /.control-sidebar -->
+      </aside><!-- /.control-sidebar -->--%>
       <!-- Add the sidebar's background. This div must be placed
            immediately after the control sidebar -->
       <div class="control-sidebar-bg"></div>

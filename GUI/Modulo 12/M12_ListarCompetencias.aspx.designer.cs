@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace templateApp
-{
-
-
-    public partial class Contact
-    {
+namespace templateApp.GUI.Modulo_12 {
+    
+    
+    public partial class M12_ListarCompetencias {
     }
 }

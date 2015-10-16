@@ -2,16 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Seccion de Inicio</title>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="user-panel">
-            <div class="pull-left image">
-              <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-            </div>
-            <div class="pull-left info">
-              <p>Alexander Pierce</p>
-              <a href="#"><i class="fa fa-circle text-success"></i>Online</a>
-            </div>
-          </div>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoCentral" runat="server">
     
     <div class="table-responsive">
 	    <table id="table-requerimientos" class="table table-striped table-hover">
@@ -26,7 +17,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td class="id">TOT_RF_1</td>
+					<td class="id">SKD_RF_1</td>
 					<td>El sistema deberá permitir agregar, modificar y eliminar requerimientos, solo cuando valide que el proyecto se encuentra activo.</td>
 					<td>Funcional</td>
 					<td>Alta</td>
@@ -36,7 +27,7 @@
                      </td>
                 </tr>
                 <tr>
-                    <td class="id">TOT_RF_2</td>
+                    <td class="id">SKD_RF_2</td>
 					<td>El sistema deberá permitir la modificación de los campos de descripción y prioridad de los requerimientos funcionales y no funcionales previamente asociados a un proyecto dado.</td>
 					<td>Funcional</td>
 					<td>Alta</td>
@@ -45,7 +36,7 @@
                         <a class="btn btn-danger glyphicon glyphicon-remove-sign" data-toggle="modal" data-target="#modal-delete" href="#"></a>
                      </td>
 				</tr><tr>
-                    <td class="id">TOT_RF_3</td>
+                    <td class="id">SKD_RF_3</td>
 					<td>El sistema deberá permitir eliminar los requerimientos funcionales y no funcionales de un proyecto.</td>
 					<td>Funcional</td>
 					<td>Alta</td>
@@ -55,7 +46,7 @@
                      </td>
                 </tr>
                 <tr>
-                    <td class="id">TOT_RF_4</td>
+                    <td class="id">SKD_RF_4</td>
 					<td>El sistema deberá permitir buscar requerimientos funcionales y no funcionales, por ID y por descripción, que se encuentran asociados a un proyecto en específico.</td>
 					<td>Funcional</td>
 					<td>Alta</td>
@@ -65,7 +56,7 @@
                      </td>
                 </tr>
                 <tr>
-                <td class="id">TOT_RF_5</td>
+                <td class="id">SKD_RF_5</td>
 					<td>El sistema deberá permitir consultar la lista de requerimientos funcionales, asociados a un proyecto en específico, organizada por ID.</td>
 					<td>Funcional</td>
 					<td>Alta</td>
@@ -75,7 +66,7 @@
                     </td>
                 </tr>
                 <tr>
-                <td class="id">TOT_RF_6</td>
+                <td class="id">SKD_RF_6</td>
 					<td>El sistema deberá permitir consultar la lista de requerimientos funcionales, asociados a un proyecto en específico, organizada por su prioridad.</td>
 					<td>Funcional</td>
 					<td>Alta</td>
@@ -84,7 +75,7 @@
                         <a class="btn btn-danger glyphicon glyphicon-remove-sign" data-toggle="modal" data-target="#modal-delete" href="#"></a>
                     </td>
                 </tr><tr>
-                    <td class="id">TOT_RNF_1</td>
+                    <td class="id">SKD_RNF_1</td>
 					<td>El sistema deberá permitir eliminar los requerimientos funcionales y no funcionales de un proyecto.</td>
 					<td>No Funcional</td>
 					<td>Alta</td>
@@ -94,7 +85,7 @@
                      </td>
                 </tr>
                 <tr>
-                    <td class="id">TOT_RNF_2</td>
+                    <td class="id">SKD_RNF_2</td>
 					<td>El sistema deberá permitir buscar requerimientos funcionales y no funcionales, por ID y por descripción, que se encuentran asociados a un proyecto en específico.</td>
 					<td>No Funcional</td>
 					<td>Alta</td>
@@ -104,7 +95,7 @@
                      </td>
                 </tr>
                 <tr>
-                <td class="id">TOT_RNF_3</td>
+                <td class="id">SKD_RNF_3</td>
 					<td>El sistema deberá permitir consultar la lista de requerimientos funcionales, asociados a un proyecto en específico, organizada por ID.</td>
 					<td>No Funcional</td>
 					<td>Alta</td>
@@ -114,7 +105,7 @@
                     </td>
                 </tr>
                 <tr>
-                <td class="id">TOT_RNF_4</td>
+                <td class="id">SKD_RNF_4</td>
 					<td>El sistema deberá permitir consultar la lista de requerimientos funcionales, asociados a un proyecto en específico, organizada por su prioridad.</td>
 					<td>No Funcional</td>
 					<td>Alta</td>

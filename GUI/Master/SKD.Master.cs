@@ -28,7 +28,7 @@ namespace templateApp
         protected void Page_Load(object sender, EventArgs e)
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load(Server.MapPath("menuLateral.xml"));
+            doc.Load(Server.MapPath("~/GUI/Master/menuLateral.xml"));
             idModulo = IdModulo;
             foreach (XmlNode node in doc.DocumentElement.ChildNodes)
                 foreach (XmlNode subNode in node.ChildNodes)

@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace templateApp
+namespace templateApp.GUI.Modulo_9
 {
 
 
-    public partial class About
+    public partial class M9_ListarEventos
     {
     }
 }

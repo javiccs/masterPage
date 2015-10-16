@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace templateApp
+namespace templateApp.GUI.Modulo_9
 {
-    public partial class Contact : System.Web.UI.Page
+    public partial class M9_ListarEventos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ((SKD)Page.Master).IdModulo = "2";
+            ((SKD)Page.Master).IdModulo = "9";
         }
     }
 }
