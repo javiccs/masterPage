@@ -12,6 +12,8 @@ namespace templateApp
         protected void Page_Load(object sender, EventArgs e)
         {
             ((SKD)Page.Master).IdModulo = "1";
+
+            //PRUEBA
         }
     }
 }
