@@ -4,11 +4,11 @@
 
   <!--OPCIONES DE PANTALLA EJEMPLO-->
   
-  <opcion nombre="Funcionalidad 1" link="~/GUI/Master/Inicio.aspx">
+  <opcion nombre="Funcionalidad 0" link="~/GUI/Master/Inicio.aspx">
     <modulo id="0"></modulo>
   </opcion>
   
-    <opcion nombre="Funcionalidad 2" link="~/GUI/Master/Inicio.aspx">
+    <opcion nombre="Funcionalidad 1" link="~/GUI/Master/Inicio.aspx">
     <modulo id="0"></modulo>
   </opcion>
 
