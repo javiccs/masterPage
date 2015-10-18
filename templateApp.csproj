@@ -149,8 +149,6 @@
     <Content Include="build\less\variables.less" />
     <Content Include="dist\img\logofinal.png" />
     <Content Include="GUI\Master\menuLateral.xml" />
-    <Content Include="GUI\Modulo 12\M12_ListarCompetencias.aspx" />
-    <Content Include="GUI\Modulo 9\M9_ListarEventos.aspx" />
     <Content Include="plugins\ckeditor\CHANGES.md" />
     <Content Include="plugins\ckeditor\LICENSE.md" />
     <Content Include="plugins\ckeditor\plugins\scayt\LICENSE.md" />
@@ -1010,20 +1008,6 @@
     <Compile Include="GUI\Master\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Modulo 12\M12_ListarCompetencias.aspx.cs">
-      <DependentUpon>M12_ListarCompetencias.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GUI\Modulo 12\M12_ListarCompetencias.aspx.designer.cs">
-      <DependentUpon>M12_ListarCompetencias.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Modulo 9\M9_ListarEventos.aspx.cs">
-      <DependentUpon>M9_ListarEventos.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GUI\Modulo 9\M9_ListarEventos.aspx.designer.cs">
-      <DependentUpon>M9_ListarEventos.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GUI\Master\SKD.Master.cs">
       <DependentUpon>SKD.Master</DependentUpon>
@@ -1034,21 +1018,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="GUI\Home\" />
-    <Folder Include="GUI\Modulo 10\" />
-    <Folder Include="GUI\Modulo 11\" />
-    <Folder Include="GUI\Modulo 13\" />
-    <Folder Include="GUI\Modulo 14\" />
-    <Folder Include="GUI\Modulo 15\" />
-    <Folder Include="GUI\Modulo 16\" />
-    <Folder Include="GUI\Modulo 1\" />
-    <Folder Include="GUI\Modulo 2\" />
-    <Folder Include="GUI\Modulo 3\" />
-    <Folder Include="GUI\Modulo 4\" />
-    <Folder Include="GUI\Modulo 5\" />
-    <Folder Include="GUI\Modulo 6\" />
-    <Folder Include="GUI\Modulo 7\" />
-    <Folder Include="GUI\Modulo 8\" />
+    <Folder Include="GUI\Modulo10\" />
+    <Folder Include="GUI\Modulo11\" />
+    <Folder Include="GUI\Modulo12\" />
+    <Folder Include="GUI\Modulo13\" />
+    <Folder Include="GUI\Modulo14\" />
+    <Folder Include="GUI\Modulo15\" />
+    <Folder Include="GUI\Modulo16\" />
+    <Folder Include="GUI\Modulo1\" />
+    <Folder Include="GUI\Modulo2\" />
+    <Folder Include="GUI\Modulo3\" />
+    <Folder Include="GUI\Modulo4\" />
+    <Folder Include="GUI\Modulo5\" />
+    <Folder Include="GUI\Modulo6\" />
+    <Folder Include="GUI\Modulo7\" />
+    <Folder Include="GUI\Modulo8\" />
+    <Folder Include="GUI\Modulo9\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -1061,7 +1046,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>23072</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
