@@ -185,3 +185,9 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+*.dll
+bin/templateApp.pdb
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.cache
+obj/Debug/templateApp.dll
+*.pdb
